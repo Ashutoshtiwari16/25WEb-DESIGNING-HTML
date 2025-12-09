@@ -1,7 +1,28 @@
-body{
-    color:blueviolet
+*{
+  padding:0;
+  margin:0;
+  color:white;
 }
 
-.myclass{
-    color:blue
+#navbar{
+    height:60px;
+    background-color: #0f1111;
+}
+
+button{
+    background-color: azure;
+}
+#logo{
+    color: yellow;
+}
+a{
+    color: aqua;
+}
+button{
+    color: #0f1111;
+}
+
+a{
+    margin-right: 50px;
+    text-decoration: none;
 }

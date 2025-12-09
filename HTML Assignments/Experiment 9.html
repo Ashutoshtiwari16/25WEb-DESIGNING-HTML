@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Cards</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f7f7f7;
+        }
+
+        .container {
+            width: 95%;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 250px;
+            background: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+            margin: 10px;
+        }
+
+        .price{
+            width:25px;
+            margin: auto;
+            padding: 2px;
+            border-radius: 4px;
+            box-shadow: #f7f7f7;
+        }
+
+
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        @media(max-width: 1024px){
+            .grid{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media(max-width: 600px){
+            .grid{
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+  
+        <div class="card">
+            <h3>Product 1</h3>
+            <p>High Quality item with Great features</p>
+            <p class="price">Rs: 499-/</p>
+        </div>
+
+    
+        <div class="card">
+        <h3>product 2</h3>
+        <p>Affordable and reliable choice</p>
+        <p class="price">Rs:299-/</p>
+            
+        </div>
+
+        <div class="card">
+            
+            <h3>Product 3</h3>
+            <p>Trendy Design in premium Quality</p>
+            <p class="price">Rs:999-/</p>
+            
+        </div>
+      <div class="card">
+        <h3>Product 4</h3>
+        <p>Durable and reliable for every day use</p>
+        <p class="price">Rs: 799-/</p>
+      </div>
+    </div>
+
+</body>
+</html>
